@@ -14,7 +14,7 @@ export function BookMockup({ size = "lg", tilt = -22, animated = false }: { size
       <div className="glow-spot pointer-events-none absolute inset-[-30%] rounded-full" />
       <div className={animated ? "book-float" : ""} style={{ transformStyle: "preserve-3d" }}>
       <div
-        className={animated ? `book-hero relative aspect-[3/4] ${w} ${entered ? "book-entered" : ""}` : `relative aspect-[3/4] ${w} transition-transform duration-700 hover:[transform:rotateY(-12deg)_rotateX(3deg)]`}
+        className={animated ? `book-hero relative aspect-[1050/1674] ${w} ${entered ? "book-entered" : ""}` : `relative aspect-[1050/1674] ${w} transition-transform duration-700 hover:[transform:rotateY(-12deg)_rotateX(3deg)]`}
         style={{ transformStyle: "preserve-3d", ...(animated ? {} : { transform: `rotateY(${tilt}deg) rotateX(4deg)` }) }}
         onAnimationEnd={animated ? () => setEntered(true) : undefined}
       >

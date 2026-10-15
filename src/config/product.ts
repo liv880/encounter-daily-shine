@@ -1,4 +1,4 @@
-import capaAsset from "@/assets/capa-30-dias-encontro-com-deus.jpeg.asset.json";
+import capaAsset from "@/assets/capa-frente-30-dias.jpg.asset.json";
 
 // Edite aqui preço, link de checkout e contato. Nada é inventado: campos vazios ficam ocultos.
 export const product = {
