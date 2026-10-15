@@ -31,7 +31,7 @@ export function BookMockup({ size = "lg", tilt = -22, animated = false }: { size
         {/* capa */}
         <div className="book-cover shadow-book absolute inset-0 overflow-hidden rounded-r-md rounded-l-sm bg-background" style={{ transform: "translateZ(12px)" }}>
           {product.coverImage ? (
-            <img src={product.coverImage} alt={`Capa do devocional ${product.name}`} className="h-full w-full object-cover" />
+            <img src={product.coverImage} alt={`Capa do devocional ${product.name}`} className="h-full w-full object-contain" />
           ) : (
             <PlaceholderCover />
           )}
